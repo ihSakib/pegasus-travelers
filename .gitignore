@@ -1,0 +1,53 @@
+# Ignore system files and metadata
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore well-known directory and other system folders
+.well-known/
+cgi-bin/
+
+# Ignore environment and sensitive files
+.env
+*.env.local
+*.log
+
+# Ignore PHP error logs
+error_log
+
+# Ignore backup files and temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore archives
+*.zip
+*.tar
+*.gz
+
+# Ignore compiled or auto-generated files
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# Ignore specific libraries or directories
+dompdf/
+PHPMailer/
+smtp/
+
+# Ignore images and font-related temporary files
+img/
+
+# Ignore generated Tailwind CSS files
+tailwind.config.js
+*.css
+*.css.map
+
+# Ignore database files
+db/
+
+# FTP-related files
+.ftpquota
